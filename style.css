@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.421);
+  border-radius: 16px;
+  margin-top: 24px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #00dd00;
+}
+
+.navbar{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00dd00;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 4px;
+}
+
+button{
+  
+}
+
+nav{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.monopattino{
+  margin-top: 24px;
+}
+
+h4{
+  display: inline;
+}
+
+p{
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.carica1{
+  max-width: 300px;
+  background-color: orange;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+}
+
+.carica2{
+  max-width: 500px;
+  background-color: green;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+}
+
+.carica3{
+  max-width: 100px;
+  background-color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+}
